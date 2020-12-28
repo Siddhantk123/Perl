@@ -1,0 +1,25 @@
+#!/usr/bin/perl
+
+sub rev_num
+{
+    ($a)=@_;
+    #print("a ka value hai : $a\n");
+ 
+    while($a> 0)
+    {
+	$d=$a%10;
+	$sum=$sum*10+$d;
+	$a=$a/10;    
+    }
+    print("$rev_num");
+
+}
+
+
+&rev_num(123);
+
+
+
+
+
+#&print_name();

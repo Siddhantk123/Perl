@@ -1,0 +1,3 @@
+#!/usr/bin/perl
+@sid = ("hiii" , "sid", 15, "Jan");
+print("@sid\n");
